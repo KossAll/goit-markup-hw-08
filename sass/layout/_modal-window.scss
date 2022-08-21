@@ -1,0 +1,41 @@
+
+  
+  .modal-window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 528px;
+    height: 581px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+  }
+  
+  
+  .modal-close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--fon-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+  }
+  
+  
+  .modal-close-btn-icon {
+    padding: 3px;
+    fill: fill #000000;
+    transition: fill var(--transition-animation);
+    .modal-close-btn:hover &,
+    .modal-close-btn:focus & {
+      fill: var(--accent-color);
+      transition: fill var(--transition-animation);
+    }
+  }
+  

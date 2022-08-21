@@ -1,0 +1,36 @@
+.about {
+    background-color: var(--fon-color);
+  }
+  
+  .about-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    align-items: baseline;
+  }
+  
+  .about-section__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background-color: var(--filter-btn-team);
+    margin-bottom: 30px;
+  }
+  
+  .about-section__list {
+    flex-basis: calc((100% - 90px) / 3);
+  }
+  
+  .about-section__heading {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .about-section__text {
+    font-weight: 400;
+    line-height: 1.71;
+    color: var(--p-color);
+  }
