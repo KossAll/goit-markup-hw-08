@@ -28,9 +28,9 @@
   }
   
   
-  .modal-close-btn-icon {
+  .modal-close-btn__icon {
     padding: 3px;
-    fill: fill #000000;
+    fill: #000000;
     transition: fill var(--transition-animation);
     .modal-close-btn:hover &,
     .modal-close-btn:focus & {

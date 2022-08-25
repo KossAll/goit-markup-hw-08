@@ -1,18 +1,4 @@
-
-  .header {
-    background-color: var(--fon-color);
-    border: 1px solid var(--border-color);
-  }
-    
-  .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .header-nav {
-    display: flex;
-  }
+  // ================= MOBILE ======================
 
   .header-menu {
     display: flex;
@@ -20,7 +6,6 @@
   }
 
   .header-menu__link {
-    
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -38,9 +23,10 @@
   }
   
  .header-menu-contact {
-  display: flex;
   align-items: center;
  }
+
+
 
  .header-menu-contact__link {
   display: flex;
@@ -60,7 +46,7 @@
 
 .header-menu-contact__icon {
   fill: var(--p-color);
-  margin-right: 10px;
+  margin-right: 8px;
   transition: fill var(--transition-animation);
     .header-menu-contact__link:hover &,
     .header-menu-contact__link:focus & {
@@ -69,8 +55,60 @@
     }
 }
 
-.header-menu-contact__phone {
-  margin-left: 50px;
+.header-nav {
+  display: flex;
 }
-  
 
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--fon-color);
+  }
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+  
+@media screen and (max-width: 767px) {
+  .header-menu {
+    display: none;
+  }
+  .header-menu-contact {
+    display: none;
+}
+}
+
+// ================= TABLET ======================
+
+@media screen and (min-width: 767px) {
+  .header-menu-contact__mail {
+    margin-bottom: 10px;
+   }
+}
+
+// ================= DESKTOP ======================
+
+@media screen and (min-width: 1200px) {
+  .header-menu-contact {
+    display: flex;
+    margin-bottom: 0;
+    margin-left: auto;
+   }
+   .header-menu-contact__mail {
+    margin-right: 30px;
+    margin-bottom: 0;
+}
+  .header {
+    border: 1px solid var(--border-color);
+}
+
+.header-nav {
+  margin-left: 92px;
+}
+.header-container {
+  justify-content: flex-start;
+} 
+
+}
