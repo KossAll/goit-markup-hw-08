@@ -329,6 +329,7 @@ a.header-menu__link_curent::after {
   text-align: center;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/hero/heromobile@1x.jpg);
   max-width: 480px;
+  max-height: 400px;
   margin-left: auto;
   margin-right: auto;
   padding: 118px 0;
