@@ -443,7 +443,7 @@ a.header-menu__link_curent::after {
   margin-bottom: 30px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .about-section {
     display: flex;
     flex-wrap: wrap;
@@ -565,14 +565,14 @@ a.header-menu__link_curent::after {
   text-align: center;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   .team-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
   }
   .team-list__item {
-    flex-basis: calc((100% - 60px) / 1);
+    flex-basis: calc((100% - 60px) / 2);
     max-width: 354px;
   }
   .team-list__item:not(:last-child) {
@@ -581,7 +581,7 @@ a.header-menu__link_curent::after {
 }
 @media screen and (min-width: 1200px) {
   .team-list__item {
-    flex-basis: calc((100% - 90px) / 3);
+    flex-basis: calc((100% - 90px) / 4);
     max-width: 270px;
   }
   .team-list__wrapper {
@@ -596,17 +596,18 @@ a.header-menu__link_curent::after {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 92px;
+  height: 90px;
 }
 
 .clients-list {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 30px;
 }
 
 .clients-list__item {
-  flex-basis: calc((100% - 150px) / 5);
+  flex-basis: calc((100% - 30px) / 2);
   border-radius: 4px;
   border: 1px solid var(--color-icons);
   transition: border var(--transition-animation);
@@ -625,6 +626,17 @@ a.header-menu__link_curent::after {
   transition: fill var(--transition-animation);
 }
 
+@media screen and (min-width: 768px) {
+  .clients-list__item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients-list__item {
+    flex-basis: calc((100% - 150px) / 6);
+    justify-content: center;
+  }
+}
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -632,8 +644,6 @@ a.header-menu__link_curent::after {
 }
 
 .footer-container {
-  display: flex;
-  align-items: baseline;
   justify-content: space-between;
 }
 
@@ -707,7 +717,6 @@ a.header-menu__link_curent::after {
 }
 
 .footer-social-container__link {
-  display: flex;
   justify-content: center;
   align-items: center;
   width: 44px;
@@ -722,7 +731,6 @@ a.header-menu__link_curent::after {
 }
 
 .footer-container-form__sbc {
-  display: flex;
   justify-content: center;
   align-items: center;
 }

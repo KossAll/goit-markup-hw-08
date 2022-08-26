@@ -5,8 +5,9 @@
   }
   
   .footer-container {
-    display: flex;
-    align-items: baseline;
+    // display: flex;
+    // align-items: baseline;
+  // justify-content: space-between;
   justify-content: space-between;
   }
   
@@ -84,7 +85,7 @@
   }
   
   .footer-social-container__link {
-    display: flex;
+    // display: flex;
     justify-content: center;
     align-items: center;
     width: 44px;
@@ -100,7 +101,7 @@
   }
   
   .footer-container-form__sbc {
-    display: flex;
+    // display: flex;
     justify-content: center;
     align-items: center;
   }

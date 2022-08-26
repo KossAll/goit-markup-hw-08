@@ -79,7 +79,7 @@
   }
   // ================= TABLET ======================
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 768px) {
     .team-list {
     display: flex;
     flex-wrap: wrap;
@@ -87,7 +87,7 @@
   }
 
   .team-list__item {
-    flex-basis: calc((100% - 60px) / 1);
+    flex-basis: calc((100% - 60px) / 2);
     max-width: 354px;
   }
 
@@ -101,7 +101,7 @@
 @media screen and (min-width: 1200px) {
 
 .team-list__item {
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 90px) / 4);
   max-width: 270px;
 }
 
