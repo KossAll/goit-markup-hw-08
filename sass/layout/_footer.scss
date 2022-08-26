@@ -1,25 +1,37 @@
+// ================= MOBILE ======================
+
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--hero-footer-bgr);
   }
   
-  .footer-container {
-    // display: flex;
-    // align-items: baseline;
-  // justify-content: space-between;
-  justify-content: space-between;
+  // .footer-container {
+  //   // display: flex;
+  //   // align-items: baseline;
+  // // justify-content: space-between;
+  // }
+  .contacts-list {
+    margin-bottom: 60px;
   }
-  
+
+  .footer-container-contacts {
+    text-align: center;
+  }
+
   .contacts-section {
     font-style: normal;
     margin-top: 20px;
   }
   
   .footer-contact-list {
-    margin-bottom: 9px;
+    margin-bottom: 8px;
+    // margin-bottom: 9px;
   }
-  
+  .footer-mailto {
+    margin-bottom: 8px;
+    // margin-bottom: 9px;
+  }
   .contacts-list-item__address {
     font-weight: 400;
     line-height: 1.71;
@@ -56,10 +68,12 @@
       }
   }
   
-  .footer-mailto {
-    margin-bottom: 9px;
-  }
   
+  .footer-social-container {
+text-align: center;
+margin-bottom: 60px;
+  }
+
   .footer-social-container__title {
     margin-bottom: 20px;
     font-weight: 700;
@@ -85,7 +99,7 @@
   }
   
   .footer-social-container__link {
-    // display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 44px;
@@ -99,12 +113,15 @@
         transition: background-color var(--transition-animation);
       }
   }
-  
-  .footer-container-form__sbc {
-    // display: flex;
-    justify-content: center;
-    align-items: center;
+
+  .footer-container-form {
+    text-align: center;
   }
+
+  // .footer-container-form__sbc {
+  //   // display: flex;
+  
+  // }
   
   .footer-container-form__title {
   font-weight: 700;
@@ -115,7 +132,9 @@
   }
   
   .footer-container-form__input {
-    min-width: 358px;
+    width: 100%;
+    max-width: 450px;
+    // min-width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -128,7 +147,8 @@
     padding-left: 16px;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-right: 12px;
+    margin-bottom: 20px;
+    // margin-right: 12px;
 
       &::placeholder{
         color: rgba(255, 255, 255, 0.6);
@@ -136,8 +156,6 @@
         line-height: 1.25;
         }
   }
-  
-
   
   .footer-container-form__btn {
     @extend %btn;
@@ -153,3 +171,15 @@
   .footer-container-form__icon {
   margin-left: 10px;
   }
+
+  // ================= TABLET ======================
+  @media screen and (min-width: 768px){
+
+  }
+
+
+
+
+
+
+// ================= DESKTOP======================
