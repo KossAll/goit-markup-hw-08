@@ -80,7 +80,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 1.71;
+    font-size: 12px;
+  line-height: 1.16;
     color: var(--p-color);
     margin-bottom: 30px;
       &::before {
@@ -114,3 +115,11 @@
     align-self: center;
     padding: 10px 52px;
   }
+
+
+  @media screen and (min-width: 1200px) {
+    .modal-form-checkbox-dscr {
+      font-size: 14px;
+      line-height: 1.71;
+  }
+}
