@@ -3,11 +3,14 @@
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
+    justify-content: left;
+    flex-wrap: wrap;
+    max-width: 400px;
   }
   
 .buttons-link:not(:last-child) {
     margin-right: 8px;
+    margin-bottom: 15px;
   }
   
 .filter-btn {
@@ -35,4 +38,18 @@
   .accent-btn {
     color: var(--fon-color);
     background-color: var(--accent-color);
+  }
+
+  @media screen and (min-width: 768px) {
+    .buttons-section {
+      justify-content: center;
+    }
+    
+  .buttons-link:not(:last-child) {
+      margin-right: 8px;
+      margin-bottom: 0;
+    }
+    .buttons-section {
+      max-width: none;
+    }
   }

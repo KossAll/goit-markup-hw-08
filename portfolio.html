@@ -26,12 +26,12 @@
         <nav class="header-nav">
           <ul class="list header-menu">
             <li class="header-menu__item">
-              <a class="link header-menu__link header-menu__link_curent" href="./index.html"
+              <a class="link header-menu__link" href="./index.html"
                 >Студія</a
               >
             </li>
             <li class="header-menu__item">
-              <a class="link header-menu__link" href="./portfolio.html">Портфоліо</a>
+              <a class="link header-menu__link header-menu__link_curent" href="./portfolio.html">Портфоліо</a>
             </li>
             <li class="header-menu__item">
               <a class="link header-menu__link" href="#contactc">Контакти</a>
@@ -145,7 +145,58 @@
             <li class="portfolio-sections-list">
               <a class="link portfolio-sections-link" href="#">
                 <div class="portfolio-img-wrapper">
-                  <img src="./images/portfolio/project1.jpg" alt="Экран ноутбука" />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop1@1x.webp 1x,
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop1@2x.webp 2x"
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop1@1x.jpg 1x,
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop1@2x.jpg 2x
+                      "
+                    />
+                    <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet1@1x.webp 1x,
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet1@2x.webp 2x
+                    "
+                    type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/portfolio-tablet/portfolio-tablet1@1x.jpg 1x,
+                        ./images/portfolio/portfolio-tablet/portfolio-tablet1@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile1@1x.webp 1x,
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile1@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile1@1x.jpg 1x,
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile1@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      class="portfolio-img-wrapper__photo"
+                      src="./images/portfolio/project1.jpg" 
+                      alt="Экран ноутбука"
+                      width="450"
+                    />
+                  </picture>
                   <p class="overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -161,7 +212,58 @@
             <li class="portfolio-sections-list">
               <a class="link portfolio-sections-link" href="#">
                 <div class="portfolio-img-wrapper">
-                  <img src="./images/portfolio/project2.jpg" alt="Игра в баскетбол" />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop2@1x.webp 1x,
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop2@2x.webp 2x"
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop2@1x.jpg 1x,
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop2@2x.jpg 2x
+                      "
+                    />
+                    <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet2@1x.webp 1x,
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet2@2x.webp 2x
+                    "
+                    type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/portfolio-tablet/portfolio-tablet2@1x.jpg 1x,
+                        ./images/portfolio/portfolio-tablet/portfolio-tablet2@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile2@1x.webp 1x,
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile2@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile2@1x.jpg 1x,
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile2@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      class="portfolio-img-wrapper__photo"
+                      src="./images/portfolio/project2.jpg" 
+                      alt="Игра в баскетбол"
+                      width="450"
+                    />
+                  </picture>
                   <p class="overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -177,7 +279,58 @@
             <li class="portfolio-sections-list">
               <a class="link portfolio-sections-link" href="#">
                 <div class="portfolio-img-wrapper">
-                  <img src="./images/portfolio/project3.jpg" alt="Эмблема ресторана" />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop3@1x.webp 1x,
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop3@2x.webp 2x"
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop3@1x.jpg 1x,
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop3@2x.jpg 2x
+                      "
+                    />
+                    <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet3@1x.webp 1x,
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet3@2x.webp 2x
+                    "
+                    type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/portfolio-tablet/portfolio-tablet3@1x.jpg 1x,
+                        ./images/portfolio/portfolio-tablet/portfolio-tablet3@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile3@1x.webp 1x,
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile3@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile3@1x.jpg 1x,
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile3@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      class="portfolio-img-wrapper__photo"
+                      src="./images/portfolio/project3.jpg"
+                      alt="Эмблема ресторана"
+                      width="450"
+                    />
+                  </picture>
                   <p class="overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -193,7 +346,58 @@
             <li class="portfolio-sections-list">
               <a class="link portfolio-sections-link" href="#">
                 <div class="portfolio-img-wrapper">
-                  <img src="./images/portfolio/project4.jpg" alt="Наушники" />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop4@1x.webp 1x,
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop4@2x.webp 2x"
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop4@1x.jpg 1x,
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop4@2x.jpg 2x
+                      "
+                    />
+                    <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet4@1x.webp 1x,
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet4@2x.webp 2x
+                    "
+                    type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/portfolio-tablet/portfolio-tablet4@1x.jpg 1x,
+                        ./images/portfolio/portfolio-tablet/portfolio-tablet4@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile4@1x.webp 1x,
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile4@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile4@1x.jpg 1x,
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile4@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      class="portfolio-img-wrapper__photo"
+                      src="./images/portfolio/project4.jpg"
+                      alt="Наушники"
+                      width="450"
+                    />
+                  </picture>
                   <p class="overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -210,7 +414,58 @@
             <li class="portfolio-sections-list">
               <a class="link portfolio-sections-link" href="#">
                 <div class="portfolio-img-wrapper">
-                  <img src="./images/portfolio/project5.jpg" alt="Две коробки" />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop5@1x.webp 1x,
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop5@2x.webp 2x"
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop5@1x.jpg 1x,
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop5@2x.jpg 2x
+                      "
+                    />
+                    <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet5@1x.webp 1x,
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet5@2x.webp 2x
+                    "
+                    type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/portfolio-tablet/portfolio-tablet5@1x.jpg 1x,
+                        ./images/portfolio/portfolio-tablet/portfolio-tablet5@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile5@1x.webp 1x,
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile5@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile5@1x.jpg 1x,
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile5@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      class="portfolio-img-wrapper__photo"
+                      src="./images/portfolio/project5.jpg"
+                      alt="Две коробки"
+                      width="450"
+                    />
+                  </picture>
                   <p class="overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -227,7 +482,58 @@
             <li class="portfolio-sections-list">
               <a class="link portfolio-sections-link" href="#">
                 <div class="portfolio-img-wrapper">
-                  <img src="./images/portfolio/project6.jpg" alt="Монитор компьютера" />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop6@1x.webp 1x,
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop6@2x.webp 2x"
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop6@1x.jpg 1x,
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop6@2x.jpg 2x
+                      "
+                    />
+                    <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet6@1x.webp 1x,
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet6@2x.webp 2x
+                    "
+                    type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/portfolio-tablet/portfolio-tablet6@1x.jpg 1x,
+                        ./images/portfolio/portfolio-tablet/portfolio-tablet6@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile6@1x.webp 1x,
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile6@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile6@1x.jpg 1x,
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile6@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      class="portfolio-img-wrapper__photo"
+                      src="./images/portfolio/project6.jpg"
+                      alt="Монитор компьютера"
+                      width="450"
+                    />
+                  </picture>
                   <p class="overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -244,7 +550,58 @@
             <li class="portfolio-sections-list">
               <a class="link portfolio-sections-link" href="#">
                 <div class="portfolio-img-wrapper">
-                  <img src="./images/portfolio/project7.jpg" alt="Раскрытая книга" />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop7@1x.webp 1x,
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop7@2x.webp 2x"
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop7@1x.jpg 1x,
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop7@2x.jpg 2x
+                      "
+                    />
+                    <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet7@1x.webp 1x,
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet7@2x.webp 2x
+                    "
+                    type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/portfolio-tablet/portfolio-tablet7@1x.jpg 1x,
+                        ./images/portfolio/portfolio-tablet/portfolio-tablet7@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile7@1x.webp 1x,
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile7@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile7@1x.jpg 1x,
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile7@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      class="portfolio-img-wrapper__photo"
+                      src="./images/portfolio/project7.jpg"
+                      alt="Раскрытая книга"
+                      width="450"
+                    />
+                  </picture>
                   <p class="overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -261,7 +618,58 @@
             <li class="portfolio-sections-list">
               <a class="link portfolio-sections-link" href="#">
                 <div class="portfolio-img-wrapper">
-                  <img src="./images/portfolio/project8.jpg" alt="Лейбл" />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop8@1x.webp 1x,
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop8@2x.webp 2x"
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop8@1x.jpg 1x,
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop8@2x.jpg 2x
+                      "
+                    />
+                    <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet8@1x.webp 1x,
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet8@2x.webp 2x
+                    "
+                    type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/portfolio-tablet/portfolio-tablet8@1x.jpg 1x,
+                        ./images/portfolio/portfolio-tablet/portfolio-tablet8@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile8@1x.webp 1x,
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile8@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile8@1x.jpg 1x,
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile8@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      class="portfolio-img-wrapper__photo"
+                      src="./images/portfolio/project8.jpg"
+                      alt="Лейбл"
+                      width="450"
+                    />
+                  </picture>
                   <p class="overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
@@ -278,7 +686,58 @@
             <li class="portfolio-sections-list">
               <a class="link portfolio-sections-link" href="#">
                 <div class="portfolio-img-wrapper">
-                  <img src="./images/portfolio/project9.jpg" alt="Работа на ноутбуке" />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop9@1x.webp 1x,
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop9@2x.webp 2x"
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop9@1x.jpg 1x,
+                        ./images/portfolio/portfolio-desktop/portfolio-desktop9@2x.jpg 2x
+                      "
+                    />
+                    <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet9@1x.webp 1x,
+                      ./images/portfolio/portfolio-tablet/portfolio-tablet9@2x.webp 2x
+                    "
+                    type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/portfolio-tablet/portfolio-tablet9@1x.jpg 1x,
+                        ./images/portfolio/portfolio-tablet/portfolio-tablet9@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile9@1x.webp 1x,
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile9@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      media="(min-width: 320px)"
+                      srcset="
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile9@1x.jpg 1x,
+                        ./images/portfolio/portfolio-mobile/portfolio-mobile9@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      class="portfolio-img-wrapper__photo"
+                      src="./images/portfolio/project9.jpg"
+                      alt="Работа на ноутбуке"
+                      width="450"
+                    />
+                  </picture>
                   <p class="overlay">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                     Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
