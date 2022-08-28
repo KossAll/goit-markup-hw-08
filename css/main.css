@@ -479,6 +479,9 @@ a.header-menu__link_curent::after {
     max-width: 768px;
     background-size: 768px 400px;
   }
+  .hero-title {
+    width: 360px;
+  }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .hero {
