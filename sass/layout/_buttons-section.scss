@@ -6,12 +6,12 @@
     justify-content: left;
     flex-wrap: wrap;
     max-width: 400px;
+    column-gap: 8px;
+    row-gap: 15px;
+
   }
   
-.buttons-link:not(:last-child) {
-    margin-right: 8px;
-    margin-bottom: 15px;
-  }
+
   
 .filter-btn {
     border: none;
