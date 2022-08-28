@@ -66,6 +66,11 @@ a.header-menu__link_curent::after {
   background-color: var(--accent-color);
 }
 
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .header-menu__link_curent::after {
+    display: none;
+  }
+}
 .modal-form-btn, .footer-container-form__btn, .hero-btn {
   font-weight: 700;
   font-size: 16px;
@@ -259,14 +264,6 @@ a.header-menu__link_curent::after {
 
 .mobile-menu-contact {
   margin-bottom: 64px;
-}
-
-.mobile-menu__link_special {
-  transition: color var(--transition-animation);
-}
-.mobile-menu__link_special:hover, .mobile-menu__link_special:focus {
-  color: var(--accent-color);
-  transition: color var(--transition-animation);
 }
 
 .mobile-menu-contact__phone {
@@ -957,6 +954,7 @@ a.header-menu__link_curent::after {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   transition: opacity var(--transition-animation), visibility var(--transition-animation);
+  overflow: auto;
 }
 
 .backdrop.is-hidden {

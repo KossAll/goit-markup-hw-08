@@ -13,3 +13,10 @@
       background-color: var(--accent-color);
     }
   }
+
+  @media screen and (min-width: 300px) and (max-width:768px) {
+    .header-menu__link_curent::after {
+      display: none;
+    }
+    
+}
