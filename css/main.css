@@ -900,7 +900,6 @@ a.header-menu__link_curent::after {
     display: flex;
     align-items: baseline;
     justify-content: space-around;
-    margin-bottom: 60px;
   }
   .footer-container-contacts {
     margin-bottom: 0;
@@ -972,7 +971,8 @@ a.header-menu__link_curent::after {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 450px;
+  width: 100%;
+  max-width: 450px;
   height: 609px;
   background-color: rgb(255, 255, 255);
   padding: 40px;
@@ -1005,7 +1005,7 @@ a.header-menu__link_curent::after {
 
 @media screen and (min-width: 1200px) {
   .modal-window {
-    width: 528px;
+    max-width: 528px;
     height: 581px;
   }
 }

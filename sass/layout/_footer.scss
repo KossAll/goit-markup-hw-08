@@ -158,12 +158,11 @@
 }
 
 // ================= TABLET ======================
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .footer-container-contact-social {
 display: flex;
 align-items: baseline;
 justify-content: space-around;
-margin-bottom: 60px;
   }
   .footer-container-contacts {
   margin-bottom: 0;
@@ -178,6 +177,7 @@ margin-bottom: 60px;
     margin-bottom: 0;
   }
 }
+
 // ================= DESKTOP======================
 @media screen and (min-width: 1200px) {
   .footer-container {
