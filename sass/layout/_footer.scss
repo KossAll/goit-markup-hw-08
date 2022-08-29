@@ -158,11 +158,12 @@
 }
 
 // ================= TABLET ======================
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px)  {
   .footer-container-contact-social {
 display: flex;
 align-items: baseline;
 justify-content: space-around;
+margin-bottom: 60px;
   }
   .footer-container-contacts {
   margin-bottom: 0;
@@ -177,7 +178,11 @@ justify-content: space-around;
     margin-bottom: 0;
   }
 }
-
+@media screen and (min-width: 768px) and  (max-width: 1200px){
+  .footer-container-contact-social {
+    margin-bottom: 53px;
+}
+}
 // ================= DESKTOP======================
 @media screen and (min-width: 1200px) {
   .footer-container {
@@ -210,6 +215,5 @@ justify-content: space-around;
   }
   .footer-social-container {
     text-align: left;
-   
   }
-}
+  }
