@@ -66,7 +66,7 @@ a.header-menu__link_curent::after {
   background-color: var(--accent-color);
 }
 
-@media screen and (min-width: 300px) and (max-width: 768px) {
+@media screen and (min-width: 300px) and (max-width: 767px) {
   .header-menu__link_curent::after {
     display: none;
   }
@@ -555,6 +555,7 @@ a.header-menu__link_curent::after {
 }
 
 .header {
+  border-bottom: 1px solid var(--border-color);
   background-color: var(--fon-color);
 }
 
@@ -586,9 +587,6 @@ a.header-menu__link_curent::after {
   .header-menu-contact__mail {
     margin-right: 30px;
     margin-bottom: 0;
-  }
-  .header {
-    border: 1px solid var(--border-color);
   }
   .header-nav {
     margin-left: 92px;
