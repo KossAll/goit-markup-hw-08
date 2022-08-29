@@ -1059,6 +1059,11 @@ a.header-menu__link_curent::after {
   margin-left: 10px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-container-contact-social {
+    margin-bottom: 53px;
+  }
+}
 @media screen and (min-width: 768px) {
   .footer-container-contact-social {
     display: flex;
@@ -1076,11 +1081,6 @@ a.header-menu__link_curent::after {
   }
   .contacts-list {
     margin-bottom: 0;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .footer-container-contact-social {
-    margin-bottom: 53px;
   }
 }
 @media screen and (min-width: 1200px) {

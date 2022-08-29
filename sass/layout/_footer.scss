@@ -158,6 +158,11 @@
 }
 
 // ================= TABLET ======================
+@media screen and (min-width: 768px) and  (max-width: 1199px){
+  .footer-container-contact-social {
+    margin-bottom: 53px;
+}
+}
 @media screen and (min-width: 768px)  {
   .footer-container-contact-social {
 display: flex;
@@ -177,11 +182,8 @@ justify-content: space-around;
     margin-bottom: 0;
   }
 }
-@media screen and (min-width: 768px) and  (max-width: 1199px){
-  .footer-container-contact-social {
-    margin-bottom: 53px;
-}
-}
+
+
 // ================= DESKTOP======================
 @media screen and (min-width: 1200px) {
   .footer-container {
